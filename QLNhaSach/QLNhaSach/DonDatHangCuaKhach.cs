@@ -49,11 +49,19 @@ namespace QLNhaSach
             }
             if (ID != "")
             {
+
                 SqlConnection con = new SqlConnection();
                 con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
                 con.Open();
                 SqlCommand cmd = new SqlCommand("delete DONDATHANG where MaDonHang='" + ID + "'", con);
                 cmd.ExecuteNonQuery();
+                SqlDataAdapter cmd2 = new SqlDataAdapter("SELECT DiemTichLuy FROM USERINFO WHERE TenDangNhap = '" + MaKhachHang + "'", con);
+                DataTable dt = new DataTable();
+                cmd2.Fill(dt);
+                int newDTL = Convert.ToInt32(dt.Rows[0][0]) + 100;
+                SqlCommand cmd3 = new SqlCommand("UPDATE USERINFO SET DiemTichLuy=@DTL where TenDangNhap='" + MaKhachHang + "'", con);
+                cmd3.Parameters.AddWithValue("@DTL", newDTL);
+                cmd3.ExecuteNonQuery();
                 con.Close();
                 DisplayData();
                 ClearData();

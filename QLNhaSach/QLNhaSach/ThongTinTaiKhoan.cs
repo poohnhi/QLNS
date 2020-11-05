@@ -50,7 +50,7 @@ namespace QLNhaSach
             + Environment.NewLine + "Số điểm tích lũy: " + dt.Rows[0]["DiemTichLuy"]
             + Environment.NewLine
             + Environment.NewLine
-            + Environment.NewLine + "Số lượng sách đã mua: " + 0;
+            + Environment.NewLine + "Số điểm tích luỹ đã tiêu thụ: " + 0;
             con.Close();
         }
 

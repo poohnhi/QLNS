@@ -21,12 +21,20 @@ namespace QLNhaSach
 
         private void NutGioiThieu_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Được thành lập vào năm 2019, nhà sách Việt Nam chú trọng vào việc cung cấp dịch vụ giao hàng sách nhanh chóng và tiện lợi nhất.");
+            this.Hide();
+            GioiThieu GT = new GioiThieu();
+            GT.ShowDialog();
+            this.Show();
+            //MessageBox.Show("Được thành lập vào năm 2020, nhà sách Việt Nam chú trọng vào việc cung cấp dịch vụ giao hàng sách nhanh chóng và tiện lợi nhất.");
         }
 
         private void NutLienHe_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Mọi thắc mắc xin liên hệ email: nhasachvietnam@gmail.com");
+            this.Hide();
+            LienHe LH = new LienHe();
+            LH.ShowDialog();
+            this.Show();
+            //MessageBox.Show("Mọi thắc mắc xin liên hệ email: nhasachvietnam@gmail.com");
         }
 
         private void NutDangNhap_Click(object sender, EventArgs e)
