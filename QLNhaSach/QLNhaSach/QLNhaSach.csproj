@@ -442,9 +442,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\A001.jpg" />
-  </ItemGroup>
   <ItemGroup Condition="$(VisualStudioVersion) == '15.0'">
     <Reference Include="Microsoft.Data.Tools.Schema.Sql, Version=13.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>$(SSDTPath)\Microsoft.Data.Tools.Schema.Sql.dll</HintPath>
@@ -460,10 +457,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\075756d7714e71b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\A002.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\A003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A008.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A010.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\B001.jpg" />
@@ -484,7 +508,46 @@
     <None Include="Resources\B006.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\B007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B008.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\C001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C008.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C010.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\D001.jpg" />
@@ -499,10 +562,58 @@
     <None Include="Resources\D004.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\D005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D008.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ddd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\E001.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\E002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E008.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-120004828-612x612.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

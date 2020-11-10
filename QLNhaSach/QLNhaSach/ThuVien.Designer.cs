@@ -48,7 +48,6 @@
             this.D003 = new System.Windows.Forms.PictureBox();
             this.D002 = new System.Windows.Forms.PictureBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.E002 = new System.Windows.Forms.PictureBox();
             this.E001 = new System.Windows.Forms.PictureBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.D001 = new System.Windows.Forms.PictureBox();
@@ -75,7 +74,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.D003)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.D002)).BeginInit();
             this.tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.E002)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.E001)).BeginInit();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.D001)).BeginInit();
@@ -122,7 +120,7 @@
             this.A003.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.A003.TabIndex = 8;
             this.A003.TabStop = false;
-            this.A003.Click += new System.EventHandler(this.A003_Click);
+            this.A003.Click += new System.EventHandler(this.Picture_Click);
             // 
             // A002
             // 
@@ -134,7 +132,7 @@
             this.A002.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.A002.TabIndex = 7;
             this.A002.TabStop = false;
-            this.A002.Click += new System.EventHandler(this.A002_Click);
+            this.A002.Click += new System.EventHandler(this.Picture_Click);
             // 
             // A001
             // 
@@ -146,7 +144,7 @@
             this.A001.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.A001.TabIndex = 6;
             this.A001.TabStop = false;
-            this.A001.Click += new System.EventHandler(this.A001_Click);
+            this.A001.Click += new System.EventHandler(this.Picture_Click);
             // 
             // tabPage2
             // 
@@ -175,7 +173,7 @@
             this.B006.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.B006.TabIndex = 14;
             this.B006.TabStop = false;
-            this.B006.Click += new System.EventHandler(this.B006_Click);
+            this.B006.Click += new System.EventHandler(this.Picture_Click);
             // 
             // B005
             // 
@@ -187,7 +185,7 @@
             this.B005.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.B005.TabIndex = 13;
             this.B005.TabStop = false;
-            this.B005.Click += new System.EventHandler(this.B005_Click);
+            this.B005.Click += new System.EventHandler(this.Picture_Click);
             // 
             // B004
             // 
@@ -199,7 +197,7 @@
             this.B004.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.B004.TabIndex = 12;
             this.B004.TabStop = false;
-            this.B004.Click += new System.EventHandler(this.B004_Click);
+            this.B004.Click += new System.EventHandler(this.Picture_Click);
             // 
             // B003
             // 
@@ -211,7 +209,7 @@
             this.B003.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.B003.TabIndex = 11;
             this.B003.TabStop = false;
-            this.B003.Click += new System.EventHandler(this.B003_Click);
+            this.B003.Click += new System.EventHandler(this.Picture_Click);
             // 
             // B002
             // 
@@ -223,7 +221,7 @@
             this.B002.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.B002.TabIndex = 10;
             this.B002.TabStop = false;
-            this.B002.Click += new System.EventHandler(this.B002_Click);
+            this.B002.Click += new System.EventHandler(this.Picture_Click);
             // 
             // B001
             // 
@@ -235,7 +233,7 @@
             this.B001.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.B001.TabIndex = 9;
             this.B001.TabStop = false;
-            this.B001.Click += new System.EventHandler(this.B001_Click);
+            this.B001.Click += new System.EventHandler(this.Picture_Click);
             // 
             // tabPage3
             // 
@@ -259,7 +257,7 @@
             this.C001.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.C001.TabIndex = 12;
             this.C001.TabStop = false;
-            this.C001.Click += new System.EventHandler(this.C001_Click);
+            this.C001.Click += new System.EventHandler(this.Picture_Click);
             // 
             // tabPage4
             // 
@@ -284,7 +282,7 @@
             this.D004.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.D004.TabIndex = 14;
             this.D004.TabStop = false;
-            this.D004.Click += new System.EventHandler(this.D004_Click);
+            this.D004.Click += new System.EventHandler(this.Picture_Click);
             // 
             // D003
             // 
@@ -296,7 +294,7 @@
             this.D003.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.D003.TabIndex = 13;
             this.D003.TabStop = false;
-            this.D003.Click += new System.EventHandler(this.D003_Click);
+            this.D003.Click += new System.EventHandler(this.Picture_Click);
             // 
             // D002
             // 
@@ -308,12 +306,11 @@
             this.D002.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.D002.TabIndex = 12;
             this.D002.TabStop = false;
-            this.D002.Click += new System.EventHandler(this.D002_Click);
+            this.D002.Click += new System.EventHandler(this.Picture_Click);
             // 
             // tabPage5
             // 
             this.tabPage5.AutoScroll = true;
-            this.tabPage5.Controls.Add(this.E002);
             this.tabPage5.Controls.Add(this.E001);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
@@ -321,18 +318,6 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "NXB Thanh Niên";
             this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // E002
-            // 
-            this.E002.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.E002.Image = ((System.Drawing.Image)(resources.GetObject("E002.Image")));
-            this.E002.Location = new System.Drawing.Point(149, 6);
-            this.E002.Name = "E002";
-            this.E002.Size = new System.Drawing.Size(127, 168);
-            this.E002.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.E002.TabIndex = 13;
-            this.E002.TabStop = false;
-            this.E002.Click += new System.EventHandler(this.E002_Click);
             // 
             // E001
             // 
@@ -344,7 +329,7 @@
             this.E001.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.E001.TabIndex = 12;
             this.E001.TabStop = false;
-            this.E001.Click += new System.EventHandler(this.E001_Click);
+            this.E001.Click += new System.EventHandler(this.Picture_Click);
             // 
             // tabPage6
             // 
@@ -361,13 +346,13 @@
             // 
             this.D001.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.D001.Image = ((System.Drawing.Image)(resources.GetObject("D001.Image")));
-            this.D001.Location = new System.Drawing.Point(16, 6);
+            this.D001.Location = new System.Drawing.Point(12, 11);
             this.D001.Name = "D001";
             this.D001.Size = new System.Drawing.Size(127, 168);
             this.D001.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.D001.TabIndex = 12;
             this.D001.TabStop = false;
-            this.D001.Click += new System.EventHandler(this.D001_Click);
+            this.D001.Click += new System.EventHandler(this.Picture_Click);
             // 
             // SachTo
             // 
@@ -440,7 +425,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.D003)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.D002)).EndInit();
             this.tabPage5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.E002)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.E001)).EndInit();
             this.tabPage6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.D001)).EndInit();
@@ -474,7 +458,6 @@
         private System.Windows.Forms.PictureBox D004;
         private System.Windows.Forms.PictureBox D003;
         private System.Windows.Forms.PictureBox D002;
-        private System.Windows.Forms.PictureBox E002;
         private System.Windows.Forms.PictureBox E001;
         private System.Windows.Forms.PictureBox D001;
         private System.Windows.Forms.PictureBox B006;
