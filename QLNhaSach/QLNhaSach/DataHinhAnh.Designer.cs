@@ -63,16 +63,6 @@ namespace QLNhaSach {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _075756d7714e71b {
-            get {
-                object obj = ResourceManager.GetObject("_075756d7714e71b", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap A001 {
             get {
                 object obj = ResourceManager.GetObject("A001", resourceCulture);
@@ -273,6 +263,36 @@ namespace QLNhaSach {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Books1 {
+            get {
+                object obj = ResourceManager.GetObject("Books1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Books2 {
+            get {
+                object obj = ResourceManager.GetObject("Books2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Books3 {
+            get {
+                object obj = ResourceManager.GetObject("Books3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap C001 {
             get {
                 object obj = ResourceManager.GetObject("C001", resourceCulture);
@@ -443,46 +463,6 @@ namespace QLNhaSach {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap D008 {
-            get {
-                object obj = ResourceManager.GetObject("D008", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap D009 {
-            get {
-                object obj = ResourceManager.GetObject("D009", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap D010 {
-            get {
-                object obj = ResourceManager.GetObject("D010", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ddd {
-            get {
-                object obj = ResourceManager.GetObject("ddd", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap E001 {
             get {
                 object obj = ResourceManager.GetObject("E001", resourceCulture);
@@ -583,9 +563,29 @@ namespace QLNhaSach {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap istockphoto_120004828_612x612 {
+        internal static System.Drawing.Bitmap F001 {
             get {
-                object obj = ResourceManager.GetObject("istockphoto_120004828_612x612", resourceCulture);
+                object obj = ResourceManager.GetObject("F001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F002 {
+            get {
+                object obj = ResourceManager.GetObject("F002", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F003 {
+            get {
+                object obj = ResourceManager.GetObject("F003", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

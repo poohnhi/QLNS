@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DangNhap));
             this.NhaSachVietNam = new System.Windows.Forms.Label();
             this.NutGioiThieu = new System.Windows.Forms.Button();
             this.NutDangNhap = new System.Windows.Forms.Button();
@@ -40,11 +39,11 @@
             // 
             this.NhaSachVietNam.AutoSize = true;
             this.NhaSachVietNam.BackColor = System.Drawing.Color.Transparent;
-            this.NhaSachVietNam.Font = new System.Drawing.Font("000 CCSpookytooth TB", 40F, System.Drawing.FontStyle.Italic);
+            this.NhaSachVietNam.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NhaSachVietNam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.NhaSachVietNam.Location = new System.Drawing.Point(49, 21);
+            this.NhaSachVietNam.Location = new System.Drawing.Point(147, 30);
             this.NhaSachVietNam.Name = "NhaSachVietNam";
-            this.NhaSachVietNam.Size = new System.Drawing.Size(717, 80);
+            this.NhaSachVietNam.Size = new System.Drawing.Size(527, 73);
             this.NhaSachVietNam.TabIndex = 0;
             this.NhaSachVietNam.Text = "Nhà sách Việt Nam";
             this.NhaSachVietNam.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -52,7 +51,7 @@
             // NutGioiThieu
             // 
             this.NutGioiThieu.BackColor = System.Drawing.SystemColors.Window;
-            this.NutGioiThieu.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutGioiThieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NutGioiThieu.Location = new System.Drawing.Point(327, 134);
             this.NutGioiThieu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NutGioiThieu.Name = "NutGioiThieu";
@@ -65,7 +64,7 @@
             // NutDangNhap
             // 
             this.NutDangNhap.BackColor = System.Drawing.SystemColors.Window;
-            this.NutDangNhap.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
+            this.NutDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.NutDangNhap.Location = new System.Drawing.Point(327, 211);
             this.NutDangNhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NutDangNhap.Name = "NutDangNhap";
@@ -78,7 +77,7 @@
             // NutDangKy
             // 
             this.NutDangKy.BackColor = System.Drawing.SystemColors.Window;
-            this.NutDangKy.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
+            this.NutDangKy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.NutDangKy.Location = new System.Drawing.Point(327, 288);
             this.NutDangKy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NutDangKy.Name = "NutDangKy";
@@ -91,7 +90,7 @@
             // NutLienHe
             // 
             this.NutLienHe.BackColor = System.Drawing.SystemColors.Window;
-            this.NutLienHe.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
+            this.NutLienHe.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.NutLienHe.Location = new System.Drawing.Point(327, 365);
             this.NutLienHe.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NutLienHe.Name = "NutLienHe";
@@ -103,9 +102,9 @@
             // 
             // DangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::QLNhaSach.DataHinhAnh.Books3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 465);
             this.Controls.Add(this.NutLienHe);
@@ -113,7 +112,7 @@
             this.Controls.Add(this.NutDangKy);
             this.Controls.Add(this.NutDangNhap);
             this.Controls.Add(this.NhaSachVietNam);
-            this.Font = new System.Drawing.Font("000 Spellcaster [TeddyBear]", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;

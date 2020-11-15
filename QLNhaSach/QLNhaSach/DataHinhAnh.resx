@@ -178,6 +178,15 @@
   <data name="B010" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\B010.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Books1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Books1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Books2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Books2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Books3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Books3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="C001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\C001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,18 +238,6 @@
   <data name="D007" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\D007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="D008" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\D008.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="D009" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\D009.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="D010" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\D010.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ddd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\ddd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="E001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\E001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -271,10 +268,13 @@
   <data name="E010" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\E010.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="istockphoto_120004828_612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\istockphoto-120004828-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="F001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\F001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_075756d7714e71b" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\075756d7714e71b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="F002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\F002.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\F003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

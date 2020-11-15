@@ -460,6 +460,21 @@
     <None Include="Resources\075756d7714e71b.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\D008.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D009.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D010.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ddd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-120004828-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\A001.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -520,6 +535,15 @@
     <None Include="Resources\B010.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Books1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Books2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Books3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\C001.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -530,9 +554,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\C004.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\C005.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\C006.jpg" />
@@ -571,18 +592,6 @@
     <None Include="Resources\D007.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\D008.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\D009.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\D010.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ddd.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\E001.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -613,7 +622,16 @@
     <None Include="Resources\E010.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\istockphoto-120004828-612x612.jpg" />
+    <None Include="Resources\C005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F003.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
