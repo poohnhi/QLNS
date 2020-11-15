@@ -15,9 +15,12 @@ namespace QLNhaSach
 {
     public partial class ThuVien : Form
     {
+        string ID;
+        string BookID = "XXXX";
         ResourceManager rm = QLNhaSach.DataHinhAnh.ResourceManager;
-        public ThuVien()
+        public ThuVien(string TenDangNhap)
         {
+            ID = TenDangNhap;
             InitializeComponent();
         }
 
@@ -48,8 +51,19 @@ namespace QLNhaSach
         {
             var picBox = (PictureBox)sender;
             string a = picBox.Name;
-            SachTo.Image = (Image)rm.GetObject(a);
+            BookID = a;
+            SachTo.Image = (Image)rm.GetObject(a)
+                ;
             LoadAnh(a);
+        }
+
+        private void NutDatHang_Click(object sender, EventArgs e)
+        {
+            if (BookID != "XXXX")
+            {
+                DonGiaoHang DGH = new DonGiaoHang(ID, BookID);
+                DGH.ShowDialog();
+            }
         }
     }
 }

@@ -39,19 +39,19 @@
             // 
             this.NhaSachVietNam.AutoSize = true;
             this.NhaSachVietNam.BackColor = System.Drawing.Color.Transparent;
-            this.NhaSachVietNam.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NhaSachVietNam.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NhaSachVietNam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.NhaSachVietNam.Location = new System.Drawing.Point(147, 30);
+            this.NhaSachVietNam.Location = new System.Drawing.Point(12, 9);
             this.NhaSachVietNam.Name = "NhaSachVietNam";
-            this.NhaSachVietNam.Size = new System.Drawing.Size(527, 73);
+            this.NhaSachVietNam.Size = new System.Drawing.Size(785, 93);
             this.NhaSachVietNam.TabIndex = 0;
-            this.NhaSachVietNam.Text = "Nhà sách Việt Nam";
+            this.NhaSachVietNam.Text = "NHÀ SÁCH VIỆT NAM";
             this.NhaSachVietNam.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // NutGioiThieu
             // 
             this.NutGioiThieu.BackColor = System.Drawing.SystemColors.Window;
-            this.NutGioiThieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutGioiThieu.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
             this.NutGioiThieu.Location = new System.Drawing.Point(327, 134);
             this.NutGioiThieu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NutGioiThieu.Name = "NutGioiThieu";
@@ -64,7 +64,7 @@
             // NutDangNhap
             // 
             this.NutDangNhap.BackColor = System.Drawing.SystemColors.Window;
-            this.NutDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.NutDangNhap.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
             this.NutDangNhap.Location = new System.Drawing.Point(327, 211);
             this.NutDangNhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NutDangNhap.Name = "NutDangNhap";
@@ -77,7 +77,7 @@
             // NutDangKy
             // 
             this.NutDangKy.BackColor = System.Drawing.SystemColors.Window;
-            this.NutDangKy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.NutDangKy.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
             this.NutDangKy.Location = new System.Drawing.Point(327, 288);
             this.NutDangKy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NutDangKy.Name = "NutDangKy";
@@ -90,7 +90,7 @@
             // NutLienHe
             // 
             this.NutLienHe.BackColor = System.Drawing.SystemColors.Window;
-            this.NutLienHe.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.NutLienHe.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
             this.NutLienHe.Location = new System.Drawing.Point(327, 365);
             this.NutLienHe.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NutLienHe.Name = "NutLienHe";
