@@ -107,12 +107,6 @@
     <Compile Include="DoiMatKhau.Designer.cs">
       <DependentUpon>DoiMatKhau.cs</DependentUpon>
     </Compile>
-    <Compile Include="XemDonDatHang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="XemDonDatHang.Designer.cs">
-      <DependentUpon>XemDonDatHang.cs</DependentUpon>
-    </Compile>
     <Compile Include="DonDatHangCuaKhach.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +156,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLNSDataSet.cs">
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="QLNSDataSet3.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -187,6 +199,10 @@
     <Compile Include="ThuVien.Designer.cs">
       <DependentUpon>ThuVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="XemDonDatHang.cs" />
+    <Compile Include="XemDonDatHang.Designer.cs">
+      <DependentUpon>XemDonDatHang.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminPanel.resx">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -202,9 +218,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DoiMatKhau.resx">
       <DependentUpon>DoiMatKhau.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="XemDonDatHang.resx">
-      <DependentUpon>XemDonDatHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DonDatHangCuaKhach.resx">
       <DependentUpon>DonDatHangCuaKhach.cs</DependentUpon>
@@ -241,6 +254,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThuVien.resx">
       <DependentUpon>ThuVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemDonDatHang.resx">
+      <DependentUpon>XemDonDatHang.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DonDatHangKhach.xsc">
       <DependentUpon>DonDatHangKhach.xsd</DependentUpon>
@@ -374,6 +390,39 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QLNSDataSet.xsc">
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet.xss">
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet1.xsc">
+      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet1.xss">
+      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet2.xsc">
+      <DependentUpon>QLNSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet2.xss">
+      <DependentUpon>QLNSDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="QLNSDataSet3.xsc">
       <DependentUpon>QLNSDataSet3.xsd</DependentUpon>
     </None>
@@ -538,16 +587,34 @@
     <None Include="Resources\D003.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\D004.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D006.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\E001.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\E002.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\E003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\E004.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\E005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E006.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\E007.jpg" />
@@ -572,24 +639,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\F003.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\D004.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\D005.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\D006.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\D007.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\E003.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\E006.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

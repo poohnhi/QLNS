@@ -35,26 +35,26 @@
             this.GhiChu = new System.Windows.Forms.Label();
             this.BoxGhiChu = new System.Windows.Forms.TextBox();
             this.sACHBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.qLNSDataSet2 = new QLNhaSach.QLNSDataSet2();
+            //this.qLNSDataSet2 = new QLNhaSach.QLNSDataSet2();
             this.sACHBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.qLNSDataSet1 = new QLNhaSach.QLNSDataSet1();
+            //this.qLNSDataSet1 = new QLNhaSach.QLNSDataSet1();
             this.label2 = new System.Windows.Forms.Label();
             this.GiaTien = new System.Windows.Forms.Label();
-            this.qLNSDataSet = new QLNhaSach.QLNSDataSet();
-            this.qLNSDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sACHTableAdapter = new QLNhaSach.QLNSDataSet1TableAdapters.SACHTableAdapter();
-            this.sACHTableAdapter1 = new QLNhaSach.QLNSDataSet2TableAdapters.SACHTableAdapter();
+            //this.qLNSDataSet = new QLNhaSach.QLNSDataSet();
+            //this.qLNSDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            //this.sACHTableAdapter = new QLNhaSach.QLNSDataSet1TableAdapters.SACHTableAdapter();
+            //this.sACHTableAdapter1 = new QLNhaSach.QLNSDataSet2TableAdapters.SACHTableAdapter();
             this.label3 = new System.Windows.Forms.Label();
             this.TenSach = new System.Windows.Forms.Label();
             this.Error = new System.Windows.Forms.ErrorProvider(this.components);
             this.ChonSach = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sACHBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet2)).BeginInit();
+            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sACHBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSetBindingSource)).BeginInit();
+            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet1)).BeginInit();
+            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet)).BeginInit();
+            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Error)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,22 +110,22 @@
             // sACHBindingSource1
             // 
             this.sACHBindingSource1.DataMember = "SACH";
-            this.sACHBindingSource1.DataSource = this.qLNSDataSet2;
+            //this.sACHBindingSource1.DataSource = this.qLNSDataSet2;
             // 
             // qLNSDataSet2
             // 
-            this.qLNSDataSet2.DataSetName = "QLNSDataSet2";
-            this.qLNSDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            //this.qLNSDataSet2.DataSetName = "QLNSDataSet2";
+            //this.qLNSDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // sACHBindingSource
             // 
             this.sACHBindingSource.DataMember = "SACH";
-            this.sACHBindingSource.DataSource = this.qLNSDataSet1;
+            //this.sACHBindingSource.DataSource = this.qLNSDataSet1;
             // 
             // qLNSDataSet1
             // 
-            this.qLNSDataSet1.DataSetName = "QLNSDataSet1";
-            this.qLNSDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            //this.qLNSDataSet1.DataSetName = "QLNSDataSet1";
+            //this.qLNSDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label2
             // 
@@ -148,21 +148,21 @@
             // 
             // qLNSDataSet
             // 
-            this.qLNSDataSet.DataSetName = "QLNSDataSet";
-            this.qLNSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            //this.qLNSDataSet.DataSetName = "QLNSDataSet";
+            //this.qLNSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // qLNSDataSetBindingSource
             // 
-            this.qLNSDataSetBindingSource.DataSource = this.qLNSDataSet;
-            this.qLNSDataSetBindingSource.Position = 0;
+            //this.qLNSDataSetBindingSource.DataSource = this.qLNSDataSet;
+            //this.qLNSDataSetBindingSource.Position = 0;
             // 
             // sACHTableAdapter
             // 
-            this.sACHTableAdapter.ClearBeforeFill = true;
+            //this.sACHTableAdapter.ClearBeforeFill = true;
             // 
             // sACHTableAdapter1
             // 
-            this.sACHTableAdapter1.ClearBeforeFill = true;
+            //this.sACHTableAdapter1.ClearBeforeFill = true;
             // 
             // label3
             // 
@@ -220,11 +220,11 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sACHBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet2)).EndInit();
+            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sACHBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSetBindingSource)).EndInit();
+            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet1)).EndInit();
+            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet)).EndInit();
+            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Error)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
