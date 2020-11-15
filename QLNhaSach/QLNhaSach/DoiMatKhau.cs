@@ -33,7 +33,7 @@ namespace QLNhaSach
             else
             {
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+                con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
                 con.Open();
                 SqlDataAdapter cmd = new SqlDataAdapter("SELECT MatKhau FROM LOGININFO WHERE TenDangNhap = '" + ID + "'", con);
                 DataTable dt = new DataTable();
@@ -85,7 +85,7 @@ namespace QLNhaSach
         private void ChangePassword()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+            con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
             SqlCommand cmd = new SqlCommand("UPDATE LOGININFO SET MatKhau=@MK where TenDangNhap='" + ID + "'", con);
             cmd.Parameters.AddWithValue("@MK", NewPW.Text);

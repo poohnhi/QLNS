@@ -24,7 +24,7 @@ namespace QLNhaSach
         private void LoadAnh(string Ma)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+            con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
             SqlDataAdapter cmd = new SqlDataAdapter("select TENSACH, GIABAN, LOAI, NXB from SACH where MASACH = '" + Ma + "'", con);
             DataTable dt = new DataTable();

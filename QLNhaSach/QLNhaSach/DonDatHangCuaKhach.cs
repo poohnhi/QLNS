@@ -32,7 +32,7 @@ namespace QLNhaSach
         private void DisplayData()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+            con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
             DataTable dt = new DataTable();
             SqlDataAdapter adapt = new SqlDataAdapter("select * from DONDATHANG", con);
@@ -51,7 +51,7 @@ namespace QLNhaSach
             {
 
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+                con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
                 con.Open();
                 SqlCommand cmd = new SqlCommand("delete DONDATHANG where MaDonHang='" + ID + "'", con);
                 cmd.ExecuteNonQuery();

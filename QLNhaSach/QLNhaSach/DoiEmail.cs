@@ -63,7 +63,7 @@ namespace QLNhaSach
         private void ChangeEmail()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+            con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
             SqlCommand cmd = new SqlCommand("UPDATE USERINFO SET Email=@E where TenDangNhap='" + ID + "'", con);
             cmd.Parameters.AddWithValue("@E", Email1.Text);

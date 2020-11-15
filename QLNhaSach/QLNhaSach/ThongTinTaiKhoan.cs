@@ -23,7 +23,7 @@ namespace QLNhaSach
         public void GetData()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+            con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
             SqlDataAdapter cmd = new SqlDataAdapter("select HoTen, GioiTinh, DiaChi, SDT, CMND, NgaySinh, Email, DiemTichLuy from USERINFO where TenDangNhap = '" + ID + "'", con);
             DataTable dt = new DataTable();

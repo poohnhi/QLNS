@@ -33,7 +33,7 @@ namespace QLNhaSach
         private void ChonSach_SelectedIndexChanged(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+            con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
             string Ten = ChonSach.Text;
             SqlDataAdapter cmd = new SqlDataAdapter("select * from SACH where MASACH ='" + Ten + "'", con);
@@ -88,7 +88,7 @@ namespace QLNhaSach
         {
             SqlConnection con = new SqlConnection();
             SqlCommand cmd = new SqlCommand();
-            con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+            con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
             cmd.Connection = con;
             cmd.CommandText = @"INSERT INTO DONDATHANG (MaDonHang,MaKhachHang,MASACH,GhiChu) VALUES(@MDH,@MKH,@MS,@GC)";

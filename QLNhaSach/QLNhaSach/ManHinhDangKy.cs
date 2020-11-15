@@ -56,7 +56,7 @@ namespace QLNhaSach
             else
             { 
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+                con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
                 con.Open();
                 //Kết nối với database
                 SqlCommand check_User_Name = new SqlCommand("SELECT * FROM LOGININFO WHERE ([TenDangNhap] = @TenDangNhap)", con);
@@ -145,7 +145,7 @@ namespace QLNhaSach
             else
             {
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+                con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
                 con.Open();
                 //Kết nối với database
                 SqlCommand checkMail = new SqlCommand("SELECT * FROM USERINFO WHERE ([Email] = @Email)", con);
@@ -176,8 +176,8 @@ namespace QLNhaSach
 
             SqlCommand cmd = new SqlCommand();
             SqlCommand cmd2 = new SqlCommand();
-            con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
-            con2.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+            con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
+            con2.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
             con2.Open();
             cmd.Connection = con;

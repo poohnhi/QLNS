@@ -21,7 +21,7 @@ namespace QLNhaSach
         private void NutDangNhap_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Server=POOHNHI;Database=QLNS;Trusted_Connection=true";
+            con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
             //Kết nối với database
             SqlDataAdapter cmd = new SqlDataAdapter("select * from LOGININFO where TenDangNhap='" + BoxID.Text + "'and MatKhau='" + BoxPassword.Text + "'", con);
