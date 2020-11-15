@@ -14,29 +14,22 @@ namespace QLNhaSach
     public partial class DonGiaoHang : Form
     {
         string ID;
-        public DonGiaoHang(string Username)
+        string BookID;
+        public DonGiaoHang(string Username, string Book)
         {
             ID = Username;
+            BookID = Book;
             InitializeComponent();
         }
 
         private void DonGiaoHang_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'qLNSDataSet2.SACH' table. You can move, or remove it, as needed.
-            this.sACHTableAdapter1.Fill(this.qLNSDataSet2.SACH);
-            // TODO: This line of code loads data into the 'qLNSDataSet1.SACH' table. You can move, or remove it, as needed.
-            this.sACHTableAdapter.Fill(this.qLNSDataSet1.SACH);
-            ChonSach.SelectedValue = "XXXX";
+            ChonSach.Text = BookID;
             BoxGhiChu.Clear();
-            GiaTien.Text = "0 VNĐ";
-        }
-        private void ChonSach_SelectedIndexChanged(object sender, EventArgs e)
-        {
             SqlConnection con = new SqlConnection();
             con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
             con.Open();
-            string Ten = ChonSach.Text;
-            SqlDataAdapter cmd = new SqlDataAdapter("select * from SACH where MASACH ='" + Ten + "'", con);
+            SqlDataAdapter cmd = new SqlDataAdapter("select * from SACH where MASACH ='" + BookID + "'", con);
             DataTable dt = new DataTable();
             cmd.Fill(dt);
             if (dt.Rows.Count != 0)
@@ -44,17 +37,9 @@ namespace QLNhaSach
                 TenSach.Text = dt.Rows[0][1].ToString();
                 GiaTien.Text = dt.Rows[0][3] + " VNĐ";
             }
-
             con.Close();
         }
 
-        private void NutXoa_Click(object sender, EventArgs e)
-        {
-            ChonSach.SelectedValue = "XXXX";
-            BoxGhiChu.Clear();
-            GiaTien.Text = "0 VNĐ"
-                + Environment.NewLine;
-        }
         bool InputHopLe()
         {
             Error.Clear();

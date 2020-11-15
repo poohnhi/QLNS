@@ -20,14 +20,14 @@ namespace QLNhaSach
         }
         private void NutThuVien_Click(object sender, EventArgs e)
         {
-            ThuVien TV = new ThuVien();
+            ThuVien TV = new ThuVien(ID);
             TV.ShowDialog();
         }
 
         private void NutDatHang_Click(object sender, EventArgs e)
         {
-            DonGiaoHang DGH = new DonGiaoHang(ID);
-            DGH.ShowDialog();
+            XemDonDatHang DDH = new XemDonDatHang(ID);
+            DDH.ShowDialog();
         }
 
         private void NutDangXuat_Click(object sender, EventArgs e)

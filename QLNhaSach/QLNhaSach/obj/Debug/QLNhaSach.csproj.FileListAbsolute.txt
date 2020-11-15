@@ -118,3 +118,4 @@ C:\Users\Admin\QLNS\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.GenerateResou
 C:\Users\Admin\QLNS\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.CopyComplete
 C:\Users\Admin\QLNS\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.exe
 C:\Users\Admin\QLNS\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.pdb
+C:\Users\NGUYNNGCTUYTNHI\QLNS\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.XemDonDatHang.resources

@@ -68,7 +68,7 @@
             this.NutDatHang.Name = "NutDatHang";
             this.NutDatHang.Size = new System.Drawing.Size(150, 62);
             this.NutDatHang.TabIndex = 2;
-            this.NutDatHang.Text = "Đặt sách";
+            this.NutDatHang.Text = "Xem đơn hàng";
             this.NutDatHang.UseVisualStyleBackColor = true;
             this.NutDatHang.Click += new System.EventHandler(this.NutDatHang_Click);
             // 
