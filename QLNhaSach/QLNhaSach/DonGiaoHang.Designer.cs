@@ -35,26 +35,16 @@
             this.GhiChu = new System.Windows.Forms.Label();
             this.BoxGhiChu = new System.Windows.Forms.TextBox();
             this.sACHBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            //this.qLNSDataSet2 = new QLNhaSach.QLNSDataSet2();
             this.sACHBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            //this.qLNSDataSet1 = new QLNhaSach.QLNSDataSet1();
-            this.label2 = new System.Windows.Forms.Label();
+            this.LabelGiaTien = new System.Windows.Forms.Label();
             this.GiaTien = new System.Windows.Forms.Label();
-            //this.qLNSDataSet = new QLNhaSach.QLNSDataSet();
-            //this.qLNSDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            //this.sACHTableAdapter = new QLNhaSach.QLNSDataSet1TableAdapters.SACHTableAdapter();
-            //this.sACHTableAdapter1 = new QLNhaSach.QLNSDataSet2TableAdapters.SACHTableAdapter();
-            this.label3 = new System.Windows.Forms.Label();
+            this.LabelTenSach = new System.Windows.Forms.Label();
             this.TenSach = new System.Windows.Forms.Label();
             this.Error = new System.Windows.Forms.ErrorProvider(this.components);
             this.ChonSach = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sACHBindingSource1)).BeginInit();
-            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sACHBindingSource)).BeginInit();
-            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet1)).BeginInit();
-            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet)).BeginInit();
-            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Error)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,9 +62,9 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.LuuY);
-            this.groupBox1.Location = new System.Drawing.Point(357, 76);
+            this.groupBox1.Location = new System.Drawing.Point(357, 98);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(242, 224);
+            this.groupBox1.Size = new System.Drawing.Size(242, 202);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Một số lưu ý khi đặt hàng";
@@ -110,31 +100,19 @@
             // sACHBindingSource1
             // 
             this.sACHBindingSource1.DataMember = "SACH";
-            //this.sACHBindingSource1.DataSource = this.qLNSDataSet2;
-            // 
-            // qLNSDataSet2
-            // 
-            //this.qLNSDataSet2.DataSetName = "QLNSDataSet2";
-            //this.qLNSDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // sACHBindingSource
             // 
             this.sACHBindingSource.DataMember = "SACH";
-            //this.sACHBindingSource.DataSource = this.qLNSDataSet1;
             // 
-            // qLNSDataSet1
+            // LabelGiaTien
             // 
-            //this.qLNSDataSet1.DataSetName = "QLNSDataSet1";
-            //this.qLNSDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Giá tiền";
+            this.LabelGiaTien.AutoSize = true;
+            this.LabelGiaTien.Location = new System.Drawing.Point(25, 76);
+            this.LabelGiaTien.Name = "LabelGiaTien";
+            this.LabelGiaTien.Size = new System.Drawing.Size(43, 13);
+            this.LabelGiaTien.TabIndex = 7;
+            this.LabelGiaTien.Text = "Giá tiền";
             // 
             // GiaTien
             // 
@@ -146,32 +124,14 @@
             this.GiaTien.TabIndex = 8;
             this.GiaTien.Text = "0 VNĐ";
             // 
-            // qLNSDataSet
+            // LabelTenSach
             // 
-            //this.qLNSDataSet.DataSetName = "QLNSDataSet";
-            //this.qLNSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // qLNSDataSetBindingSource
-            // 
-            //this.qLNSDataSetBindingSource.DataSource = this.qLNSDataSet;
-            //this.qLNSDataSetBindingSource.Position = 0;
-            // 
-            // sACHTableAdapter
-            // 
-            //this.sACHTableAdapter.ClearBeforeFill = true;
-            // 
-            // sACHTableAdapter1
-            // 
-            //this.sACHTableAdapter1.ClearBeforeFill = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Tên sách";
+            this.LabelTenSach.AutoSize = true;
+            this.LabelTenSach.Location = new System.Drawing.Point(25, 9);
+            this.LabelTenSach.Name = "LabelTenSach";
+            this.LabelTenSach.Size = new System.Drawing.Size(52, 13);
+            this.LabelTenSach.TabIndex = 9;
+            this.LabelTenSach.Text = "Tên sách";
             // 
             // TenSach
             // 
@@ -204,9 +164,9 @@
             this.ClientSize = new System.Drawing.Size(614, 315);
             this.Controls.Add(this.ChonSach);
             this.Controls.Add(this.TenSach);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.LabelTenSach);
             this.Controls.Add(this.GiaTien);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.LabelGiaTien);
             this.Controls.Add(this.BoxGhiChu);
             this.Controls.Add(this.GhiChu);
             this.Controls.Add(this.groupBox1);
@@ -220,11 +180,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sACHBindingSource1)).EndInit();
-            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sACHBindingSource)).EndInit();
-            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet1)).EndInit();
-            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet)).EndInit();
-            //((System.ComponentModel.ISupportInitialize)(this.qLNSDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Error)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -237,11 +193,11 @@
         private System.Windows.Forms.Label LuuY;
         private System.Windows.Forms.Label GhiChu;
         private System.Windows.Forms.TextBox BoxGhiChu;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label LabelGiaTien;
         private System.Windows.Forms.Label GiaTien;
         private System.Windows.Forms.BindingSource sACHBindingSource;
         private System.Windows.Forms.BindingSource sACHBindingSource1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label LabelTenSach;
         private System.Windows.Forms.Label TenSach;
         private System.Windows.Forms.ErrorProvider Error;
         private System.Windows.Forms.Label ChonSach;
