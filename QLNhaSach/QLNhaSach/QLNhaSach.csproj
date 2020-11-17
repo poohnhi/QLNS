@@ -9,6 +9,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
   </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -199,7 +202,9 @@
     <Compile Include="ThuVien.Designer.cs">
       <DependentUpon>ThuVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="XemDonDatHang.cs" />
+    <Compile Include="XemDonDatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="XemDonDatHang.Designer.cs">
       <DependentUpon>XemDonDatHang.cs</DependentUpon>
     </Compile>
