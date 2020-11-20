@@ -40,7 +40,7 @@
             // 
             // NutDoiMatKhau
             // 
-            this.NutDoiMatKhau.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutDoiMatKhau.Font = new System.Drawing.Font("Verdana", 10F);
             this.NutDoiMatKhau.Location = new System.Drawing.Point(13, 188);
             this.NutDoiMatKhau.Name = "NutDoiMatKhau";
             this.NutDoiMatKhau.Size = new System.Drawing.Size(129, 41);
@@ -51,7 +51,7 @@
             // 
             // NutDoiEmail
             // 
-            this.NutDoiEmail.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 9.75F);
+            this.NutDoiEmail.Font = new System.Drawing.Font("Verdana", 10F);
             this.NutDoiEmail.Location = new System.Drawing.Point(166, 188);
             this.NutDoiEmail.Name = "NutDoiEmail";
             this.NutDoiEmail.Size = new System.Drawing.Size(129, 41);

@@ -31,23 +31,23 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.qLNSDataSet = new QLNhaSach.QLNSDataSet();
-            this.qLNSDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.uSERINFOTableAdapterBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.maDonHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.maKhachHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mASACHDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ghiChuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dONDATHANGBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.qLNSDataSet3 = new QLNhaSach.QLNSDataSet3();
+            this.qLNSDataSet = new QLNhaSach.QLNSDataSet();
+            this.qLNSDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.uSERINFOTableAdapterBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dONDATHANGTableAdapter = new QLNhaSach.QLNSDataSet3TableAdapters.DONDATHANGTableAdapter();
             this.NutXacNhan = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dONDATHANGBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.uSERINFOTableAdapterBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dONDATHANGBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet3)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -77,20 +77,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(718, 258);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseClick);
-            // 
-            // qLNSDataSet
-            // 
-            this.qLNSDataSet.DataSetName = "QLNSDataSet";
-            this.qLNSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // qLNSDataSetBindingSource
-            // 
-            this.qLNSDataSetBindingSource.DataSource = this.qLNSDataSet;
-            this.qLNSDataSetBindingSource.Position = 0;
-            // 
-            // uSERINFOTableAdapterBindingSource
-            // 
-            this.uSERINFOTableAdapterBindingSource.DataSource = typeof(QLNhaSach.QLNSDataSetTableAdapters.USERINFOTableAdapter);
             // 
             // maDonHangDataGridViewTextBoxColumn
             // 
@@ -132,18 +118,32 @@
             this.qLNSDataSet3.DataSetName = "QLNSDataSet3";
             this.qLNSDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // qLNSDataSet
+            // 
+            this.qLNSDataSet.DataSetName = "QLNSDataSet";
+            this.qLNSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // qLNSDataSetBindingSource
+            // 
+            this.qLNSDataSetBindingSource.DataSource = this.qLNSDataSet;
+            this.qLNSDataSetBindingSource.Position = 0;
+            // 
+            // uSERINFOTableAdapterBindingSource
+            // 
+            this.uSERINFOTableAdapterBindingSource.DataSource = typeof(QLNhaSach.QLNSDataSetTableAdapters.USERINFOTableAdapter);
+            // 
             // dONDATHANGTableAdapter
             // 
             this.dONDATHANGTableAdapter.ClearBeforeFill = true;
             // 
             // NutXacNhan
             // 
-            this.NutXacNhan.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
+            this.NutXacNhan.Font = new System.Drawing.Font("Verdana", 12F);
             this.NutXacNhan.Location = new System.Drawing.Point(285, 276);
             this.NutXacNhan.Name = "NutXacNhan";
             this.NutXacNhan.Size = new System.Drawing.Size(176, 50);
             this.NutXacNhan.TabIndex = 1;
-            this.NutXacNhan.Text = "Đã giao hàng";
+            this.NutXacNhan.Text = "Xác nhận giao hàng";
             this.NutXacNhan.UseVisualStyleBackColor = true;
             this.NutXacNhan.Click += new System.EventHandler(this.NutXacNhan_Click);
             // 
@@ -161,11 +161,11 @@
             this.Text = "Đơn đặt hàng của khách";
             this.Load += new System.EventHandler(this.DonDatHangCuaKhach_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dONDATHANGBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.uSERINFOTableAdapterBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dONDATHANGBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet3)).EndInit();
             this.ResumeLayout(false);
 
         }

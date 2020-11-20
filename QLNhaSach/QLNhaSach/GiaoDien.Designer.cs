@@ -52,7 +52,7 @@
             // 
             // NutDangXuat
             // 
-            this.NutDangXuat.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutDangXuat.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutDangXuat.Location = new System.Drawing.Point(20, 283);
             this.NutDangXuat.Name = "NutDangXuat";
             this.NutDangXuat.Size = new System.Drawing.Size(150, 62);
@@ -63,7 +63,7 @@
             // 
             // NutDatHang
             // 
-            this.NutDatHang.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutDatHang.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutDatHang.Location = new System.Drawing.Point(20, 197);
             this.NutDatHang.Name = "NutDatHang";
             this.NutDatHang.Size = new System.Drawing.Size(150, 62);
@@ -74,7 +74,7 @@
             // 
             // NutThongTinNXB
             // 
-            this.NutThongTinNXB.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutThongTinNXB.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutThongTinNXB.Location = new System.Drawing.Point(20, 111);
             this.NutThongTinNXB.Name = "NutThongTinNXB";
             this.NutThongTinNXB.Size = new System.Drawing.Size(150, 62);
@@ -85,7 +85,7 @@
             // 
             // NutThuVien
             // 
-            this.NutThuVien.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutThuVien.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutThuVien.Location = new System.Drawing.Point(20, 25);
             this.NutThuVien.Name = "NutThuVien";
             this.NutThuVien.Size = new System.Drawing.Size(150, 62);

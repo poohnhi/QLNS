@@ -921,7 +921,7 @@
             // 
             // NutDatHang
             // 
-            this.NutDatHang.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F);
+            this.NutDatHang.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutDatHang.Location = new System.Drawing.Point(577, 221);
             this.NutDatHang.Name = "NutDatHang";
             this.NutDatHang.Size = new System.Drawing.Size(120, 42);

@@ -42,7 +42,7 @@
             // 
             // NutDangNhap
             // 
-            this.NutDangNhap.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 13F);
+            this.NutDangNhap.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutDangNhap.Location = new System.Drawing.Point(78, 88);
             this.NutDangNhap.Name = "NutDangNhap";
             this.NutDangNhap.Size = new System.Drawing.Size(134, 42);

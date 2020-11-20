@@ -101,7 +101,8 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(310, 35);
             this.textBox5.TabIndex = 7;
-            this.textBox5.Text = "Email: infor@nsvn.com";
+            this.textBox5.Text = "Email: info@nsvn.com";
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // label2
             // 
@@ -158,9 +159,9 @@
             this.label4.ForeColor = System.Drawing.Color.Orange;
             this.label4.Location = new System.Drawing.Point(565, 335);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 42);
+            this.label4.Size = new System.Drawing.Size(161, 42);
             this.label4.TabIndex = 13;
-            this.label4.Text = "tốt nhất";
+            this.label4.Text = "tốt nhất!";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LienHe
@@ -179,6 +180,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "LienHe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Liên hệ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

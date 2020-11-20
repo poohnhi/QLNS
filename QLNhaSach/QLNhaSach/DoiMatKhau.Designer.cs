@@ -42,7 +42,7 @@
             // 
             // NutXacNhan
             // 
-            this.NutXacNhan.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F);
+            this.NutXacNhan.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutXacNhan.Location = new System.Drawing.Point(81, 135);
             this.NutXacNhan.Name = "NutXacNhan";
             this.NutXacNhan.Size = new System.Drawing.Size(108, 38);
