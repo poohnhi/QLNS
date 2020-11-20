@@ -276,7 +276,7 @@
             // 
             // Reset
             // 
-            this.Reset.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
+            this.Reset.Font = new System.Drawing.Font("Verdana", 13F);
             this.Reset.Location = new System.Drawing.Point(17, 213);
             this.Reset.Name = "Reset";
             this.Reset.Size = new System.Drawing.Size(120, 50);
@@ -287,7 +287,7 @@
             // 
             // Register
             // 
-            this.Register.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 15F);
+            this.Register.Font = new System.Drawing.Font("Verdana", 13F);
             this.Register.Location = new System.Drawing.Point(173, 214);
             this.Register.Name = "Register";
             this.Register.Size = new System.Drawing.Size(120, 50);

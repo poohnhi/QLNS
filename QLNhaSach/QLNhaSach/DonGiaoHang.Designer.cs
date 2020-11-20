@@ -50,7 +50,7 @@
             // 
             // NutDatHang
             // 
-            this.NutDatHang.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F);
+            this.NutDatHang.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NutDatHang.Location = new System.Drawing.Point(110, 245);
             this.NutDatHang.Name = "NutDatHang";
             this.NutDatHang.Size = new System.Drawing.Size(131, 58);
@@ -77,8 +77,8 @@
             this.LuuY.Size = new System.Drawing.Size(198, 156);
             this.LuuY.TabIndex = 0;
             this.LuuY.Text = "Lưu ý:\r\n\r\nGiá tiền chưa bao gồm tiền ship.\r\n\r\nMiễn phí ship tại các khu vực nội t" +
-    "hành.\r\n\r\nHàng đã mua miễn trả lại.\r\n\r\nMọi thắc mắc xin liên hệ email:\r\n\r\nnhasach" +
-    "vietnam@gmail.com\r\n\r\n";
+    "hành.\r\n\r\nHàng đã mua miễn trả lại.\r\n\r\nMọi thắc mắc xin liên hệ email:\r\n\r\ninfo@ns" +
+    "vn.com\r\n\r\n";
             // 
             // GhiChu
             // 
@@ -117,10 +117,10 @@
             // GiaTien
             // 
             this.GiaTien.AutoSize = true;
-            this.GiaTien.Font = new System.Drawing.Font("000 Comic Sans TB", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GiaTien.Location = new System.Drawing.Point(22, 98);
+            this.GiaTien.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GiaTien.Location = new System.Drawing.Point(24, 98);
             this.GiaTien.Name = "GiaTien";
-            this.GiaTien.Size = new System.Drawing.Size(76, 32);
+            this.GiaTien.Size = new System.Drawing.Size(68, 23);
             this.GiaTien.TabIndex = 8;
             this.GiaTien.Text = "0 VNĐ";
             // 
@@ -136,10 +136,10 @@
             // TenSach
             // 
             this.TenSach.AutoSize = true;
-            this.TenSach.Font = new System.Drawing.Font("000 Spellcaster [TeddyBear]", 16F, System.Drawing.FontStyle.Italic);
-            this.TenSach.Location = new System.Drawing.Point(22, 26);
+            this.TenSach.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TenSach.Location = new System.Drawing.Point(24, 35);
             this.TenSach.Name = "TenSach";
-            this.TenSach.Size = new System.Drawing.Size(180, 34);
+            this.TenSach.Size = new System.Drawing.Size(167, 23);
             this.TenSach.TabIndex = 10;
             this.TenSach.Text = "Hãy chọn mã sách";
             // 

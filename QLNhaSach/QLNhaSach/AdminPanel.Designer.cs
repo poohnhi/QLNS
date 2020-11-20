@@ -35,7 +35,7 @@
             // 
             // NutDoiMatKhau
             // 
-            this.NutDoiMatKhau.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F);
+            this.NutDoiMatKhau.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutDoiMatKhau.Location = new System.Drawing.Point(51, 14);
             this.NutDoiMatKhau.Name = "NutDoiMatKhau";
             this.NutDoiMatKhau.Size = new System.Drawing.Size(143, 62);
@@ -46,7 +46,7 @@
             // 
             // NutXemDon
             // 
-            this.NutXemDon.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F);
+            this.NutXemDon.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutXemDon.Location = new System.Drawing.Point(51, 96);
             this.NutXemDon.Name = "NutXemDon";
             this.NutXemDon.Size = new System.Drawing.Size(143, 62);
@@ -57,7 +57,7 @@
             // 
             // NutDangXuat
             // 
-            this.NutDangXuat.Font = new System.Drawing.Font("000 Blambot Pro Lite TB", 12F);
+            this.NutDangXuat.Font = new System.Drawing.Font("Verdana", 13F);
             this.NutDangXuat.Location = new System.Drawing.Point(51, 178);
             this.NutDangXuat.Name = "NutDangXuat";
             this.NutDangXuat.Size = new System.Drawing.Size(143, 62);
