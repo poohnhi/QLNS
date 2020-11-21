@@ -1,0 +1,29 @@
+-----Danh sách thành viên nhóm-----
+
+1. Nguyễn Ngọc Tuyết Nhi - 43.01.103.032
+
+2. Hoàng Thị Kim Tiền - 43.01.103.049
+
+3. Cao Hoàng Thiên Ý - 43.01.103.031
+
+-----GitHub của nhóm-----
+
+https://github.com/poohnhi/QLNS
+
+-----Phân công-----
+
+1. Nguyễn Ngọc Tuyết Nhi: Source Code + Setup
+
+2. Hoàng Thị Kim Tiền: SQL Database + Màn hình Giới thiệu + Màn hình Liên hệ + Thuyết trình
+
+3. Cao Hoàng Thiên Ý: File Word báo cáo + File PowerPoint + Thuyết trình
+
+-----Folder-----
+
+Database: File .sql Database của chương trình
+
+Presentation: File word báo cáo đồ án và file powerpoint thuyết trình của đồ án (cũ)
+
+Setup: File cài đặt chương trình
+
+Source Code: Mã nguồn của chương trình

@@ -30,7 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DonDatHangCuaKhach));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.maDonHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.maKhachHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TENSACH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GiaTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ghiChuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dONDATHANGBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.qLNSDataSet3 = new QLNhaSach.QLNSDataSet3();
             this.qLNSDataSet = new QLNhaSach.QLNSDataSet();
@@ -38,12 +45,6 @@
             this.uSERINFOTableAdapterBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.NutXacNhan = new System.Windows.Forms.Button();
             this.dONDATHANGTableAdapter = new QLNhaSach.QLNSDataSet3TableAdapters.DONDATHANGTableAdapter();
-            this.maDonHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maKhachHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TENSACH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GiaTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ghiChuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dONDATHANGBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qLNSDataSet3)).BeginInit();
@@ -81,45 +82,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(718, 258);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseClick);
-            // 
-            // dONDATHANGBindingSource
-            // 
-            this.dONDATHANGBindingSource.DataMember = "DONDATHANG";
-            this.dONDATHANGBindingSource.DataSource = this.qLNSDataSet3;
-            // 
-            // qLNSDataSet3
-            // 
-            this.qLNSDataSet3.DataSetName = "QLNSDataSet3";
-            this.qLNSDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // qLNSDataSet
-            // 
-            this.qLNSDataSet.DataSetName = "QLNSDataSet";
-            this.qLNSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // qLNSDataSetBindingSource
-            // 
-            this.qLNSDataSetBindingSource.DataSource = this.qLNSDataSet;
-            this.qLNSDataSetBindingSource.Position = 0;
-            // 
-            // uSERINFOTableAdapterBindingSource
-            // 
-            this.uSERINFOTableAdapterBindingSource.DataSource = typeof(QLNhaSach.QLNSDataSetTableAdapters.USERINFOTableAdapter);
-            // 
-            // NutXacNhan
-            // 
-            this.NutXacNhan.Font = new System.Drawing.Font("Verdana", 12F);
-            this.NutXacNhan.Location = new System.Drawing.Point(285, 276);
-            this.NutXacNhan.Name = "NutXacNhan";
-            this.NutXacNhan.Size = new System.Drawing.Size(176, 50);
-            this.NutXacNhan.TabIndex = 1;
-            this.NutXacNhan.Text = "Xác nhận giao hàng";
-            this.NutXacNhan.UseVisualStyleBackColor = true;
-            this.NutXacNhan.Click += new System.EventHandler(this.NutXacNhan_Click);
-            // 
-            // dONDATHANGTableAdapter
-            // 
-            this.dONDATHANGTableAdapter.ClearBeforeFill = true;
             // 
             // maDonHangDataGridViewTextBoxColumn
             // 
@@ -168,6 +130,45 @@
             this.ghiChuDataGridViewTextBoxColumn.ReadOnly = true;
             this.ghiChuDataGridViewTextBoxColumn.Width = 400;
             // 
+            // dONDATHANGBindingSource
+            // 
+            this.dONDATHANGBindingSource.DataMember = "DONDATHANG";
+            this.dONDATHANGBindingSource.DataSource = this.qLNSDataSet3;
+            // 
+            // qLNSDataSet3
+            // 
+            this.qLNSDataSet3.DataSetName = "QLNSDataSet3";
+            this.qLNSDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // qLNSDataSet
+            // 
+            this.qLNSDataSet.DataSetName = "QLNSDataSet";
+            this.qLNSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // qLNSDataSetBindingSource
+            // 
+            this.qLNSDataSetBindingSource.DataSource = this.qLNSDataSet;
+            this.qLNSDataSetBindingSource.Position = 0;
+            // 
+            // uSERINFOTableAdapterBindingSource
+            // 
+            this.uSERINFOTableAdapterBindingSource.DataSource = typeof(QLNhaSach.QLNSDataSetTableAdapters.USERINFOTableAdapter);
+            // 
+            // NutXacNhan
+            // 
+            this.NutXacNhan.Font = new System.Drawing.Font("Verdana", 12F);
+            this.NutXacNhan.Location = new System.Drawing.Point(285, 276);
+            this.NutXacNhan.Name = "NutXacNhan";
+            this.NutXacNhan.Size = new System.Drawing.Size(176, 50);
+            this.NutXacNhan.TabIndex = 1;
+            this.NutXacNhan.Text = "Xác nhận giao hàng";
+            this.NutXacNhan.UseVisualStyleBackColor = true;
+            this.NutXacNhan.Click += new System.EventHandler(this.NutXacNhan_Click);
+            // 
+            // dONDATHANGTableAdapter
+            // 
+            this.dONDATHANGTableAdapter.ClearBeforeFill = true;
+            // 
             // DonDatHangCuaKhach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +177,7 @@
             this.Controls.Add(this.NutXacNhan);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "DonDatHangCuaKhach";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

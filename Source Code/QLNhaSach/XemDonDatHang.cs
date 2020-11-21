@@ -35,9 +35,9 @@ namespace QLNhaSach
             this.dONDATHANGTableAdapter.FillBy(this.qLNSDataSet3.DONDATHANG, MaKhachHang);
         }
         private void NutSuaSoLuong_Click(object sender, EventArgs e) {
-            this.Hide();
             if (ID != "")
             {
+                this.Hide();
                 SuaDonHang SDH = new SuaDonHang(MaKhachHang, ID);
                 SDH.ShowDialog();
             }
@@ -50,13 +50,14 @@ namespace QLNhaSach
 
         private void NutHuyDonHang_Click(object sender, EventArgs e)
         {
-            DialogResult rs = MessageBox.Show("Xác nhận huỷ đơn hàng?", "Xác nhận", MessageBoxButtons.YesNo);
-            if (rs == DialogResult.No)
-            {
-                return;
-            }
+
             if (ID != "")
             {
+                DialogResult rs = MessageBox.Show("Xác nhận huỷ đơn hàng?", "Xác nhận", MessageBoxButtons.YesNo);
+                if (rs == DialogResult.No)
+                {
+                    return;
+                }
                 SqlConnection con = new SqlConnection();
                 con.ConnectionString = "Server=.;Database=QLNS;Trusted_Connection=true";
                 con.Open();

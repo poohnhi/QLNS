@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(XemDonDatHang));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.maKhachHangDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TENSACH = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -188,6 +189,7 @@
             this.Controls.Add(this.NutXacNhan);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "XemDonDatHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

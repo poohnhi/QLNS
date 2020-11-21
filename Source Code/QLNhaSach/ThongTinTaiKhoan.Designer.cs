@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThongTinTaiKhoan));
             this.NutDoiMatKhau = new System.Windows.Forms.Button();
             this.NutDoiEmail = new System.Windows.Forms.Button();
             this.BoxTTCN = new System.Windows.Forms.GroupBox();
@@ -108,6 +109,7 @@
             this.Controls.Add(this.NutDoiEmail);
             this.Controls.Add(this.NutDoiMatKhau);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ThongTinTaiKhoan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
