@@ -49,6 +49,7 @@
             this.textBox1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox1.Location = new System.Drawing.Point(53, 21);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(365, 62);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Liên hệ\r\n";
@@ -62,6 +63,7 @@
             this.textBox2.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.textBox2.Location = new System.Drawing.Point(83, 147);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(310, 35);
             this.textBox2.TabIndex = 4;
             this.textBox2.Text = "Hỗ trợ khách hàng";
@@ -75,6 +77,7 @@
             this.textBox3.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox3.Location = new System.Drawing.Point(83, 179);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(310, 35);
             this.textBox3.TabIndex = 5;
             this.textBox3.Text = "Điện thoại: 083 714 0967";
@@ -87,6 +90,7 @@
             this.textBox4.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.textBox4.Location = new System.Drawing.Point(83, 210);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(310, 35);
             this.textBox4.TabIndex = 6;
             this.textBox4.Text = "Hotline: 0961 231 567";
@@ -99,6 +103,7 @@
             this.textBox5.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox5.Location = new System.Drawing.Point(83, 238);
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(310, 35);
             this.textBox5.TabIndex = 7;
             this.textBox5.Text = "Email: info@nsvn.com";

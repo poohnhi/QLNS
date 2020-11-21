@@ -154,3 +154,4 @@ C:\Users\NGUYNNGCTUYTNHI\QLNS2\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.Co
 C:\Users\NGUYNNGCTUYTNHI\QLNS2\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.csproj.CopyComplete
 C:\Users\NGUYNNGCTUYTNHI\QLNS2\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.exe
 C:\Users\NGUYNNGCTUYTNHI\QLNS2\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.pdb
+C:\Users\Admin\QLNS\QLNhaSach\QLNhaSach\obj\Debug\QLNhaSach.XemDonDatHang.resources
