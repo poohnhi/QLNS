@@ -1,0 +1,5 @@
+1. Kết nối với SQL Server mặc định của máy tính (Server Name: .)
+2. Vào thư mục \Database và mở file QLNS.sql
+3. Execute để thêm Database "QLNS"
+4. Vào thư mục \QLNhaSach\QLNhaSach\bin\Debug
+5. Mở file QLNhaSach.exe để khởi động chương trình
